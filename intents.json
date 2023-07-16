@@ -1,0 +1,149 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey"],
+      "responses": ["Hello, welcome to our hotel! How may I assist you?", "Hi there, how can I help you today?"]
+    },
+    {
+      "tag": "booking",
+      "patterns": ["Can I book a room?", "How do I make a reservation?", "I want to book a room"],
+      "responses": ["Sure, let me help you with that. What dates are you looking to book for?", "Of course, what type of room would you like and for what dates?"]
+    },
+    {
+      "tag": "reservations",
+      "patterns": ["How do I make a reservation?", "Can I modify or cancel my reservation?", "What is your cancellation policy?"],
+      "responses": ["You can make a reservation online, by phone, or in person at the front desk.", "If you need to modify or cancel your reservation, please contact us at least 24 hours in advance.", "Our cancellation policy varies depending on the room package and dates of your stay, so please check your reservation details or ask at the front desk for more information."]
+    },
+    {
+      "tag": "room_types",
+      "patterns": ["What types of rooms do you have?", "Can you tell me about your room options?", "What are my choices for rooms?"],
+      "responses": ["We have a variety of rooms to choose from, including standard rooms, deluxe rooms, and suites."]
+    },
+    {
+      "tag": "amenities",
+      "patterns": ["What amenities does your hotel offer?", "Can you tell me about your hotel's features?", "What kind of services do you provide?"],
+      "responses": ["We offer a range of amenities, including a pool, fitness center, spa, and on-site restaurant."]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where is your hotel located?", "What's the address of your hotel?", "Can you give me directions to your hotel?"],
+      "responses": ["Our hotel is located at 123 Main Street, in the heart of the city. If you need directions, just let me know your starting location and I'll be happy to help."]
+    },
+    {
+      "tag": "check_in",
+      "patterns": ["What time is check-in?", "Can I check in early?", "What do I need to check in?"],
+      "responses": ["Check-in time is at 3pm.", "Early check-in may be available depending on room availability, but cannot be guaranteed.", "Please have a valid ID and a credit card ready at check-in."]
+    },
+    {
+      "tag": "check_out",
+      "patterns": ["What time is check-out?", "Can I check out late?", "How do I check out?"],
+      "responses": ["Check-out time is at 11am.", "Late check-out may be available depending on room availability, but cannot be guaranteed.", "To check out, please return your room key and settle any outstanding charges with the front desk."]
+    },
+    {
+      "tag": "late_checkout",
+      "patterns": ["Can I request a late checkout?", "What is the latest time I can check out?", "Is there an additional fee for a late checkout?"],
+      "responses": ["Yes, you can request a late checkout based on availability.", "The latest time for checkout is 2pm.", "There may be an additional fee for a late checkout, depending on the time requested and the hotel occupancy."]
+    },
+    {
+      "tag": "thankyou",
+      "patterns": ["Thank you", "Thanks", "Appreciate it"],
+      "responses": ["You're welcome! If you need any further assistance, just let me know."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Take care"],
+      "responses": ["Goodbye, have a great day!"]
+    },
+    {
+      "tag": "restaurant",
+      "patterns": ["What are your restaurant hours?", "Can I make a reservation at your restaurant?", "What kind of food does your restaurant serve?"],
+      "responses": ["Our restaurant is open for breakfast, lunch, and dinner.", "Reservations are recommended, especially during peak times.", "We serve a variety of dishes, including local specialties and international cuisine."]
+    },
+    {
+      "tag": "parking",
+      "patterns": ["Do you have on-site parking?", "How much does parking cost?"],
+      "responses": ["Yes, we have on-site parking available for our guests.", "The cost varies depending on the length of your stay and the type of parking you require. We also offer valet parking for an additional fee."]
+    },
+    {
+      "tag": "room_service",
+      "patterns": ["Do you offer room service?", "What are the room service hours?", "What is the menu for room service?"],
+      "responses": ["Yes, we offer room service for our guests.", "Room service is available 24/7 daily.", "Our room service menu includes a variety of dishes, including breakfast items, sandwiches, salads, and entrees. You can find the room service menu in your room or by contacting the front desk."]
+    },
+    {
+      "tag": "cleaning",
+      "patterns": ["How often is housekeeping provided?", "Can I request housekeeping for my room?", "What are the cleaning protocols for the rooms?"],
+      "responses": ["We provide daily housekeeping for our guests.", "If you would like to request housekeeping at a specific time, just let us know and we'll do our best to accommodate your schedule.", "Our rooms are thoroughly cleaned and sanitized between guests, and we follow all recommended cleaning protocols to ensure the safety of our guests and staff."]
+    },
+    {
+      "tag": "pets",
+      "patterns": ["Are pets allowed in the hotel?", "What is your pet policy?", "Can I bring my dog or cat with me?"],
+      "responses": ["We welcome well-behaved pets at our hotel. There is a pet fee of Rs.500 per night, and we ask that you keep your pet on a leash or in a carrier while in public areas of the hotel. Please let us know in advance if you will be traveling with a pet so we can make sure to assign you a pet-friendly room."]
+    },
+    {
+      "tag": "local_attractions",
+      "patterns": ["What are some local attractions near the hotel?"],
+      "responses": ["There are plenty of local attractions to explore during your stay, including museums, parks, and restaurants. Our front desk staff can provide recommendations and assistance with booking tours or tickets."]
+    },
+    {
+      "tag": "special_occasions",
+      "patterns": ["Do you offer any special packages or deals?", "Can you arrange something special for a birthday or anniversary?", "Is there a honeymoon suite available?"],
+      "responses": ["We offer a variety of special packages and deals throughout the year, including romantic getaways, family packages, and more.", "If you are celebrating a special occasion, we can arrange for a special surprise to be waiting in your room upon arrival.", "Our honeymoon suite offers the ultimate romantic experience, with stunning views and premium amenities."]
+    },
+    {
+      "tag": "weddings",
+      "patterns": ["Do you host weddings at the hotel?", "What kind of wedding packages do you offer?", "Is there a wedding coordinator on staff?"],
+      "responses": ["Yes, we offer wedding packages for couples looking to celebrate their special day with us.", "Our packages include catering, floral arrangements, and a variety of other services.", "Yes we have a wedding coordinator on staff to assist you with planning and coordination."]
+    },
+    {
+      "tag": "breakfast",
+      "patterns": ["Is breakfast included with my room?", "What are the breakfast options?", "What are the breakfast hours?"],
+      "responses": ["We offer a variety of breakfast options for our guests, including continental, full American, and italian options. Breakfast is included with some room packages, so please check your reservation details or ask at the front desk for more information.", "Breakfast hours are from 6am to 10am daily."]
+    },
+    {
+      "tag": "transportation",
+      "patterns": ["Is there a transport service for railway station?", "Can you arrange transportation to the airport?", "Do you have a car rental service?"],
+      "responses": ["We do offer transport service for railway station for an additional fee. Please let us know your flight details at the time of booking or at least 24 hours in advance. We can also arrange transportation to the airport for an additional fee.", "We do not have a car rental service, but we can help you make arrangements with a local rental agency."]
+    },
+    {
+      "tag": "complaints",
+      "patterns": ["I have a complaint about my room and service", "What is the process for filing a complaint?"],
+      "responses": ["We apologize for any issues you may have experienced during your stay. Please let us know your concerns as soon as possible, so we can address them promptly.", "Our front desk staff can assist you with filing a complaint or speaking with a manager, who will do their best to resolve the issue to your satisfaction."]
+    },
+    {
+      "tag": "business",
+      "patterns": ["Do you have a business center?", "Can I print or fax documents at the hotel?", "Is there a conference room available?"],
+      "responses": ["We understand the needs of our business travelers and offer a variety of amenities to support your work needs, including a business center with computer, printer, and fax services.", "We also have a conference room available for meetings or presentations. Please contact us for more information or to make a reservation."]
+    },
+    {
+      "tag": "laundry_services",
+      "patterns": ["Do you offer laundry services?", "Is there a laundry room on site?", "How much does it cost to do laundry at the hotel?"],
+      "responses": ["Yes, we offer laundry services for our guests. We offer both dry cleaning and self-service laundry options. Our laundry room is open 24 hours a day.", "Prices vary depending on the service."]
+    },
+    {
+      "tag": "spa",
+      "patterns": ["Do you have a spa?", "What services are available at the spa?", "What are the spa hours?"],
+      "responses": ["Yes, we have a spa on site for our guests.", "Our spa offers a variety of services, including massages, facials, and body treatments.", "Spa hours are from 9am to 9pm daily. You can make a reservation for spa services by contacting the front desk."]
+    },
+    {
+      "tag": "pool",
+      "patterns": ["Do you have a pool?", "What are the pool hours?", "Is the pool heated?"],
+      "responses": ["Yes, we have a pool for our guests.", "Pool hours are from 7am to 10pm daily.", "The pool is heated for your comfort. We also provide pool towels and lounge chairs for your convenience."]
+    },
+    {
+      "tag": "fitness_center",
+      "patterns": ["Do you have a fitness center?", "What equipment is available in the fitness center?", "What are the fitness center hours?"],
+      "responses": ["Yes, we have a fitness center for our guests.", "Our fitness center is equipped with a variety of cardio and strength training equipment.", "Fitness center hours are from 6am to 10pm daily. We also provide towels and water for your workout."]
+    },
+    {
+      "tag": "beach_access",
+      "patterns": ["Do you have beach access?", "Is the beach within walking distance?", "Can I rent beach equipment at the hotel?"],
+      "responses": ["Yes, we have beach access for our guests.", "Our hotel is located just steps away from the beach.", "We do not offer beach equipment rentals on site, but there are several rental companies located nearby."]
+    },
+    {
+      "tag": "lost_and_found",
+      "patterns": ["I lost something at the hotel, what should I do?", "Is there a lost and found at the hotel?", "Can you help me locate a lost item?"],
+      "responses": ["If you have lost something at the hotel, please contact our front desk as soon as possible.", "We have a lost and found department that can help you locate your lost item.", "If the item is found, we will contact you to arrange for its return."]
+    }
+  ]
+}
